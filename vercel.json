@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/api",
+            "destination": "https://api.thecatapi.com/v1/images/search?${path.slice(1)}&limit=10&api_key="
+        }
+    ]
+  }
